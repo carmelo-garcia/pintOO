@@ -1,9 +1,10 @@
 #/usr/bin/python3
 
-##############################################
-#### Pon las definiciones que faltan aqui ####
-##############################################
+class Number:
+    unit = "Kilograms"  # Valor por defecto
 
+    def __init__(self, value):
+        self.value = value
 
 
 n1=Number(10)
